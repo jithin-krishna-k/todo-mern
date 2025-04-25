@@ -43,17 +43,17 @@ cd backend
 npm install
 npm run dev
 Make sure you have MongoDB running locally or update the .env file with your MongoDB URI.
-
-```
-```bash
 .env example:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/tododb
 ```
 ```bash
 3. Setup Frontend
-cd ../frontend
+cd frontend
 npm install
 npm start
+
+# frontend/.env
+VITE_API_URL=http://localhost:3000/api
 
 ```
