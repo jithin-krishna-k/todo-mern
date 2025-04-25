@@ -44,7 +44,7 @@ npm install
 npm run dev
 Make sure you have MongoDB running locally or update the .env file with your MongoDB URI.
 .env example:
-PORT=5000
+PORT=3000
 MONGO_URI=mongodb://localhost:27017/tododb
 ```
 ```bash
