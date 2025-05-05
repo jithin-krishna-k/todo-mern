@@ -14,6 +14,10 @@ app.get('/api/test', (req, res) => {
     res.json({ message: 'Server is working...' });
 });
 
+app.get('/', (req, res) => {
+    res.json("welcome to home.");
+});
+
 app.use('/api/todos', todoRoutes);
 
 connectDB().then(() => {
