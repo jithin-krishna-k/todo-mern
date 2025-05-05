@@ -33,8 +33,8 @@ A full-stack To-Do List application built using the **MERN stack (MongoDB, Expre
 
 ```bash
 1. Clone the repository
-git clone https://github.com/your-username/TODO-MERN.git
-cd TODO-
+git clone https://github.com/jithin-krishna-k/todo-mern.git
+cd todo-mern
 
 ```
 ```bash
@@ -43,21 +43,17 @@ cd backend
 npm install
 npm run dev
 Make sure you have MongoDB running locally or update the .env file with your MongoDB URI.
-
-```
-```bash
 .env example:
-PORT=5000
+PORT=3000
 MONGO_URI=mongodb://localhost:27017/tododb
 ```
 ```bash
 3. Setup Frontend
-cd ../frontend
+cd frontend
 npm install
 npm start
 
+# frontend/.env
+VITE_API_URL=http://localhost:3000/api
+
 ```
-
-
-📄 License
-This project is licensed under the MIT License.
