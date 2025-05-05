@@ -17,7 +17,7 @@ const Home = () => {
                     Todo List
                 </h1>
 
-                <div className="sticky top-10 z-10 pb-4 pt-1">
+                <div className="sticky top-1 z-10 pb-4 pt-1">
                     <div className="flex items-center justify-end space-x-2">
                         <Link
                             to="/add"
