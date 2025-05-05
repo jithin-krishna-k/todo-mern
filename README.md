@@ -3,7 +3,7 @@
 TODO-MERN
 A full-stack To-Do List application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). This app allows users to manage their tasks efficiently with features like adding, editing, deleting, and filtering tasks.
 
-🔗 Live Demo: TODO-MERN App
+🔗 Live Demo: https://todo-mern-client-psi.vercel.app/
 
 ---
 
